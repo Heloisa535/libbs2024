@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script>
+        /*
+        isto é um comentário
+        Projeto para as aulas da turma
+        */
+       //Também é um comentario
+        document.write("LIBBS 2024" + "<br>");
+        var nome = "Heloisa Helena";
+        var endereço = "Rua da minha casa";
+        var telefone = "11 930944740";
+        const anoNascimento = 2005;
+
+        nome = prompt ("Qual é seu nome?")
+        studing= confirm("Está estudando no momento?")
+        console.log(studing);
+
+        if(studing){
+            alert("Parabéns!!!");
+        } else {
+            alert("Vamos estudar...")
+        }
+
+        var idade = prompt ("Qual sua idade?")
+        console.log(idade);
+        if(idade > 50){
+            alert("Nada de neto?")
+        }else if(idade > 25){
+            alert("Já não precisa morar com o papai!")
+        }else if (idade >= 18){
+            alert("Parabéns! Já pode tirar a carta!")
+        }else if (idade <18){
+            alert( "Ainda brinca")
+        }
+        console.log(typeof(anoNascimento));
+        console.log(typeof(telefone));
+
+
+        document.write(nome + "<br>");
+        document.write(endereco + "<br>");
+        document.write(telefone + "<br>");
+        document.write(anoNascimento + "<br>");
+
+        console.log("Estou aqui...");
+
+        alert("Você chegou aqui...");
+
+
+
+    </script>
+</head>
+<body>
+<p>Escrito no HTML</p>
+
+
+</body>
+</html>
