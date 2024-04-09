@@ -1,0 +1,115 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+.principal, .principal1, .principal2, .principal3, .principal4, .principal5{
+    background-color: rgb(238, 236, 236);
+    width: 20%;
+    margin-top: 40px;
+    margin-left: 40px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);;
+    
+    
+}
+
+
+
+h3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: large;
+    
+}
+
+.nome{
+    color: rgb(0, 0, 0);
+}
+
+
+.container {
+    display: flex;
+   
+    
+    
+  }
+  
+  .div1, .div2, .div3
+   {
+        display: inline-block; 
+        width: 50%; 
+        font-size: 16px; 
+  }
+  
+  .div1 {
+ 
+    display: inline-block; 
+    width: 30%; 
+    font-size: 16px; 
+    margin: 1px;
+   align-items: center;
+
+
+  }
+  
+  .div2 {
+   
+    display: inline-block; 
+    width: 30%; 
+    font-size: 16px; 
+    margin: 5px;
+  }
+  
+  .div3 {
+
+    display: inline-block; 
+    width: 30%; 
+    font-size: 16px; 
+    margin: 5px;
+  }
+  .secundaria{
+ 
+  box-sizing: border-box;
+  margin-top: 10px;
+ 
+  }
+
+  .secundaria img{
+
+    margin-top: 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    object-fit: cover;
+
+  }
+ #mon{
+    margin-left: 25px;
+    
+ }
+
+ #tue{
+    margin-left: 25px;
+ }
+ 
+ #wed{
+    margin-left: 25px;
+ }
+
+
+
+ .container2 {
+    display: flex;
+    
+ }
+ .nome{
+    text-align: center;
+    
+ }
+
+
+ 
